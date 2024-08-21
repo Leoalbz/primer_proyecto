@@ -1,4 +1,6 @@
 import tkinter as tk
+from tkinter import messagebox
+
 # import clientes
 ventana = tk.Tk()
 ventana.title('Sistema gestor de pacientes')
@@ -6,8 +8,8 @@ ventana.geometry('400x200')
 titulo = tk.Label(ventana, text= 'Sistema gestor de pacientes', fg='red', font=('Arial', 18))
 titulo.pack()
 img = tk.PhotoImage(file='background_img.png')
-lbl_imagen = tk.Label(ventana, image=img)
-lbl_imagen.pack()
+bg_imagen = tk.Label(ventana, image=img)
+bg_imagen.place(x=0,y=0,relwidth=1,relheight=1)
 #ingreso_pacientes = tk.Entry(ventana)
 #ingreso_pacientes.pack()
 marco = tk.Frame(ventana)
