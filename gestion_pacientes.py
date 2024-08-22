@@ -4,7 +4,7 @@ from tkinter import messagebox
 # import clientes
 ventana = tk.Tk()
 ventana.title('Sistema gestor de pacientes')
-ventana.geometry('400x200')
+ventana.geometry('800x600')
 titulo = tk.Label(ventana, text= 'Sistema gestor de pacientes', fg='red', font=('Arial', 18))
 titulo.pack()
 img = tk.PhotoImage(file='background_img.png')
