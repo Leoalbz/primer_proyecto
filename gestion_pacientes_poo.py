@@ -74,7 +74,7 @@ titulo.pack(pady=10)
 
 img = tk.PhotoImage(file='background_img.png')
 bg_imagen = tk.Label(ventana, image=img)
-bg_imagen.place(x=0,y=50,relwidth=1,relheight=1)
+bg_imagen.place(x=0,y=180,relwidth=1,relheight=1)
 
 
 # campos de entrada de datos
